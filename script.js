@@ -1,12 +1,12 @@
 /*
- *  yahiarefaiea-official-website-beta 1.0.0
+ *  johnnyrefaiea-official-website-beta 1.0.0
  *  
  *  I’m a 21 years old handsome guy who grows up in a small town in Syria.
- *  http://beta.yahiarefaiea.com/
- *  hello@yahiarefaiea.com
+ *  http://beta.johnnyrefaiea.com/
+ *  hello@johnnyrefaiea.com
  *  
  *  Last update on: 2018/10/24
- *  ©2018 Yahia Refaiea. all rights reserved.
+ *  ©2018 johnny Refaiea. all rights reserved.
  */
 
 $(document).ready(function () {
@@ -336,7 +336,7 @@ var drawTheMap = function () {
 
 var init = function () {
 	renderer = new THREE.WebGLRenderer({
-		canvas: document.getElementById("yahia"),
+		canvas: document.getElementById("johnny"),
 		antialias: true,
 		alpha: true
 	});
