@@ -15,7 +15,7 @@ RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 
 #remove /index and add to domian
-RewriteRule ^(.*)index.html$ https://mechanik-chrzanow.pl/$1 [R=301,L]
+RewriteRule ^(.*)index.html$ https://jspace.pl/$1 [R=301,L]
 
 
 #chache
