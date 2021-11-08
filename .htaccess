@@ -15,7 +15,7 @@ RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 
 #remove /index and add to domian
-RewriteRule ^(.*)index.html$ https://mechanik-chrzanow.pl/$1 [R=301,L]
+RewriteRule ^(.*)index.html$ https://jspace.pl/$1 [R=301,L]
 
 
 #chache
@@ -51,3 +51,5 @@ RewriteRule ^(.*)index.html$ https://mechanik-chrzanow.pl/$1 [R=301,L]
   ExpiresByType application/pdf "access plus 1 month"
   ExpiresByType image/vnd.microsoft.icon "access plus 1 year"
 </IfModule>
+# Blokowanie CDN zmiany po edycje bez cache
+Header set Cache-Control "max-age=0, private, no-store, no-cache, must-revalidate"

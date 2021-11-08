@@ -1,3 +1,9 @@
+#play-pause-button{
+  font-size: 25px;
+  cursor: pointer;
+  color: #666666;
+}
+
 
 .mCustomScrollbar {
   -ms-touch-action: pinch-zoom;
